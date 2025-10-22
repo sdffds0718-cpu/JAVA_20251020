@@ -1,0 +1,70 @@
+package test;
+
+public class sample {
+
+	public static void main(String[] args) {
+
+char var1 = 'A';
+char c1 = 65;
+char var2 = '가';
+char c2 = 0xD7A3;
+
+ 
+System.out.println(var1);
+System.out.println(c1);
+
+System.out.println(var2);
+System.out.println(c2);
+
+double g1 = 10.5;
+
+double d1 = 10.5;
+
+double result = d1 / g1;
+double f2 = 2147483648l;
+float f3 = 2147483648f;
+float f4 = 2147483648f;
+
+
+System.out.println(f2);
+System.out.println(f3);
+System.out.println(f4);
+
+String a = "최홍석";
+String b = "나는\"최석호\"입니다";
+
+System.out.println(a);
+System.out.println(b);
+// 자동 형변환
+
+int intA = 10000;
+byte byteB = 20;
+System.out.println(intA);
+System.out.println(byteB);
+	
+//강제형변환
+
+System.out.println("-------강제형변환----------");
+
+
+byteB = (byte)intA;
+
+System.out.println(intA);
+System.out.println(byteB);
+
+System.out.println("-------실수형변환----------");
+
+double dNum = 10.5;
+int iNum = 10;
+
+dNum = iNum; // 자동형변환 dNum = (double)iNum -> dNum = 10.0
+System.out.println(dNum);
+
+
+
+
+
+	
+	}
+	}
+	

@@ -1,0 +1,24 @@
+package test;
+
+public class sample {
+
+	public static void main(String[] args) {
+
+		int x = 10;
+		double y = 1.5;
+		double result = x + y;
+		
+		System.out.println("Hello,JaVA.");
+		System.out.println("제 몸무게는" + result + "입니다");
+char var1 = 'A';
+char c1 - 65;
+char var2 = '가';
+char c2 = 44032;
+System.out.println(var1);
+System.out.println(c1);
+
+System.out.println(var1);
+System.out.println(c2);
+	}
+
+}

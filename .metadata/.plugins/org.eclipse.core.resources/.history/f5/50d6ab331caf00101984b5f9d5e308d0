@@ -1,0 +1,26 @@
+package test;
+
+import java.util.Scanner;
+
+public class Tesx22 {
+
+	public static void main(String[] args) {
+		
+	Scanner sc = new Scanner(System.in);
+
+	System.out.print("나이는?");
+	int age = Integer.parseInt(sc.nextLine());
+	System.out.print("이름은?");
+	String name = sc.nextLine();
+			System.out.print("몸무게는?");
+	double weight = Double.parseDouble(sc.nextLine());
+	
+	
+	System.out.println("End!!");
+	System.out.println("나이는:" + age);
+	System.out.println("이름은:" + name);
+	System.out.println("몸무게는:" + weight);
+	
+	}
+
+}

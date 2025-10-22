@@ -1,0 +1,15 @@
+package test;
+
+public class sample {
+
+	public static void main(String[] args) {
+
+		int x = 10;
+		double y = 1.5;
+		
+		System.out.println("Hello,JaVA.");
+		System.out.println("제 몸무게는" + x + y + "입니다");
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package test;
+
+import java.util.Scanner;
+
+public class test {
+
+	public static void main(String[] args) {
+	Scanner sc = new scanner (System.in);
+
+	System.out.println("이름을 입력하세요" + name);
+	String name = sc.nextLine();
+			
+	System.out.println("나이를 입력하세요" + age);
+    int age = Integer.parseInt(sc.nextLine());
+    		
+	System.out.println("몸무게를 입력하세요" + weight);
+	double weight = Double.parseDouble(sc.nextLine());
+	
+	System.out.println("주소를 입력하세요" + adress);
+	String adress = sc.nextLine();
+	
+	System.out.println("이름은?" + name);
+	System.out.println("나이는?" + age );
+	System.out.println("몸무게는?" + weight);
+	System.out.println("주소는?" + adress);
+
+	}
+
+}
