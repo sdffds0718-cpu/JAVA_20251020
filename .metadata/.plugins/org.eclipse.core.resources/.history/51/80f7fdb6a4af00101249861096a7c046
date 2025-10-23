@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class test {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scannner(System.in);
+		
+		System.out.println("나이는?");
+		int age = Integer.parseInt(sc.nextLine());
+
+        System.out.println("이름은?");		
+		String name = sc.nextLine();
+		
+		System.out.println("성별은?");
+		String sex = sc.nextLine();
+		
+		System.out.println("몸무게는?");
+		double weight = Double.parseDouble(sc.nextLine());
+		
+		
+		
+
+	}
+
+}
